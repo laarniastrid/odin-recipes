@@ -1,11 +1,11 @@
-main
-blueish
+blueish - main
 #364B94
-#7182c1
+#7182c1 - ligher
+#24336b - darker
 
-reddish
+reddish - links
 #94364B
-#A86977
+#A86977 - ligher
 
-greenish
+greenish - external
 #4B9436
