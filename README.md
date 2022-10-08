@@ -7,5 +7,5 @@ Since these are static pages, they can be run using the `live-server` npm packag
 
 ## Recipes
 * Magic Peanut Butter Middles
-* No Back COokies III
+* No Bake Cookies III
 * Peanut Butter Chip Chocolate Cookies
