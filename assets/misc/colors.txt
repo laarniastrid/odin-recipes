@@ -1,0 +1,11 @@
+main
+blueish
+#364B94
+#7182c1
+
+reddish
+#94364B
+#A86977
+
+greenish
+#4B9436

@@ -1,0 +1,200 @@
+body {
+  display: unset;
+  margin: 0;
+  min-height: 100vh;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3 {
+  margin-block: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 60px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #364b94;
+  box-shadow: 0 0 4px 0 #666666;
+}
+
+.header .h1 {
+  color: #364b94;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.container .main.content {
+  max-width: 860px;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 #666666;
+  padding: 20px 16px;
+}
+
+.go-back {
+  height: 28px;
+  position: absolute;
+  left: 40px;
+}
+
+.go-back-link,
+.go-back-link:visited {
+  position: absolute;
+  min-width: 160px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #94364b;
+  background-color: #ffffff;
+}
+
+.go-back-link:hover {
+  color: #ffffff;
+  background-color: #a86977;
+  box-shadow: 0 0 4px 0 #666666;
+}
+
+.go-back-link:active,
+.go-back-link:focus {
+  color: #ffffff;
+  background-color: #94364b;
+  border: 1px solid #ffffff;
+}
+
+.image-wrapper {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 450px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 0 #666666;
+}
+
+.ingredients {
+  padding: 16px 16px 12px;
+}
+
+.steps {
+  padding: 16px 16px 12px;
+  margin-bottom: 32px;
+}
+
+.description,
+.nutrition-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.description .title {
+  margin: 4px;
+}
+
+.description > .info {
+  margin: 4px 4px 40px 4px;
+}
+
+.details,
+.nutrition {
+  width: 600px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 #666666;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.details .title,
+.nutrition .title {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.details .content,
+.nutrition .content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details .content .item,
+.nutrition .content .item {
+  padding: 8px 12px;
+}
+
+.item .label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.list .item {
+  margin-bottom: 4px;
+}
+
+.list .item:last-child {
+  margin-bottom: 0;
+}
+
+.source {
+  padding-left: 16px;
+}
+
+.source-link,
+.source-link:visited {
+  color: #94364b;
+}
+
+.source-link:hover {
+  color: #4b9436;
+}
+
+.source-link:active,
+.source-link:focus {
+  color: #2d621e;
+}
+
+.to-top {
+  height: 28px;
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+}
+
+.to-top-link,
+.to-top-link:visited {
+  position: absolute;
+  min-width: 120px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #94364b;
+  background-color: #ffffff;
+}
+
+.to-top-link:hover {
+  color: #ffffff;
+  background-color: #a86977;
+  box-shadow: 0 0 4px 0 #666666;
+}
+
+.to-top-link:active,
+.to-top-link:focus {
+  color: #ffffff;
+  background-color: #94364b;
+  border: 1px solid #ffffff;
+}
